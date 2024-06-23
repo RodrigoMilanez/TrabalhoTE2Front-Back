@@ -1,0 +1,28 @@
+CARRO
+	Não aparece equipe nem piloto.
+	Não edita, algum erro de constraint no backend. Suspeito que possa ser no link com equipes ou a placa.
+	Não puxa piloto e equipe padrão.
+
+EQUIPE
+	Problemas menores de ajuste de tela.
+	Por algum motivo quando estava fazendo a primeira versão da view apareceu mais uma rota para equipes no menu.
+PILOTO
+	Não edita nem salva - possível erro de validação.
+	List não puxa equipe.
+	Equipe já definida não vem selecionada em edição
+	Tentei aplicar um form control que aplica a data de nascimento na criação e puxa a data já definida na edição
+	Seria necessário atualizar o status do piloto para ATIVO ou INATIVO (status enum) - todo método que tentei aplicar no front não funcionou - collection no postman mostra como deve ser feito.
+	
+
+MENSAGENS DE ERRO ERRADAS
+	Não está puxando os erros definidos no back - nenhuma das tabelas.
+	Algumas mensagens do front ainda estão com a mensagem do repositório e origem, sendo "livros" ou "autores".
+
+IDEIAS DESCARTADAS
+	Filtros por numero de piloto, placa de carro, numero de equipe.
+	Clicar em equipe exibe pilotos na equipe.
+	Clicar em piloto exibe informações do piloto e carro vinculado.
+	Definir PATROCINADORES (apenas backend) para equipes. 
+	Mudanças de fonte no frontend.
+	Mudar a cor da fonte para vermelho assim que EQUIPE estiver com 2 PILOTOS ativos.
+	Possível metodologia de pontuação sugerida por professor.
